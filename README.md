@@ -16,12 +16,12 @@ If I feel a struggel again of dev time I would go fastify-mongoose-api.
 - Assumption2: i10n and i18n is not microservices problem, maybe in apigw like response transform middleware, with spesific microservice for localization and stuff
 - Assumption3: Date is always and always in ISO formatter and GMT+0 Timezone.
 - Data validation done by schemas, thankfully they can also generate swagger docs and UI
-- internal logger works quite find
+- internal logger works quite fine
 - Use gateways( the gateways in cleanarchitecture) to retrieve data into usecase or interact with different systems
 - Well usecases are not native I know. They have dependencies of different frameworks 
 
 
 TODO:
-[] RabbitMQ handler, Why: ? I like rabbitmq
-[] PM2
-[] Docker, Nahh, It is not my concern, a devops should handle image management, deployment strategies loadbalancer and networking. I should code!
+- [] RabbitMQ handler, Why: ? I like rabbitmq
+- [] PM2
+- [] Docker, Nahh, It is not my concern, a devops should handle image management, deployment strategies loadbalancer and networking. I should code!
