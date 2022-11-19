@@ -3,14 +3,14 @@
 This is my new service boilerplate.
 I do not want to put a lot effort on fancy frameworks, layers, middlewares, OOP, abstract bullshit etc. My concern is dev-speed, I should try my ideas fast!
 
-TypeScrip is also no no. I do not want to slowdown development process. Yeah yeah types are great, be a good programmer and follow your variables!
+TypeScript is also no no. I do not want to slow down development process. Yeah yeah types are great, be a good programmer and follow your variables!
 
 It has to be 'clean' and understandable. A developer should look at the folder structure and understand what does this service do
 I've tried NestJS + Mongo + Clean Architecture, it was sexy. but only sexy
 
-Unit test. This could be done actually after adopting the development proecss. We already definig the schemas beforehand.
+Unit test. This could be done actually after adopting the development proecss. We are already definig the schemas beforehand.
 
-If I feel struggeled again of development time I would go fastify-mongoose-api. 
+If I feel a struggel again of dev time I would go fastify-mongoose-api. 
 
 - Assumption1: authentication is not microservices problem , maybe in apigw or bff or spesific microservices, maybe kratos-ketos backed microservice(I'll do that)
 - Assumption2: i10n and i18n is not microservices problem, maybe in apigw like response transform middleware, with spesific microservice for localization and stuff
@@ -24,4 +24,4 @@ If I feel struggeled again of development time I would go fastify-mongoose-api.
 TODO:
 [] RabbitMQ handler, Why: ? I like rabbitmq
 [] PM2
-[] Docker, Nahh, why aq.
+[] Docker, Nahh, It is not my concern, a devops should handle image management, deployment strategies loadbalancer and networking. I should code!
