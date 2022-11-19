@@ -1,0 +1,37 @@
+{
+  "name": "startup-api-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.5.0",
+    "@fastify/cors": "^8.2.0",
+    "@fastify/formbody": "^7.3.0",
+    "@fastify/helmet": "^10.0.2",
+    "@fastify/swagger": "^8.1.0",
+    "@fastify/swagger-ui": "^1.2.0",
+    "@fastify/under-pressure": "^8.1.0",
+    "ajv": "^8.11.2",
+    "ajv-errors": "^3.0.0",
+    "ajv-formats": "^2.1.1",
+    "async_hooks": "^1.0.0",
+    "env-schema": "^5.1.1",
+    "fastify": "^4.10.0",
+    "fastify-plugin": "^4.3.0",
+    "json-stringify-safe": "^5.0.1",
+    "lodash": "^4.17.21",
+    "make-promises-safe": "^5.1.0",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20",
+    "pino": "^8.7.0",
+    "pino-multi-stream": "^6.0.0",
+    "uuid": "^9.0.0"
+  }
+}
