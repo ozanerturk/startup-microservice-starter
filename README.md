@@ -19,9 +19,9 @@ If I feel a struggel again of dev time I would go fastify-mongoose-api.
 - internal logger works quite fine
 - Use gateways( the gateways in cleanarchitecture) to retrieve data into usecase or interact with different systems
 - Well usecases are not native I know. They have dependencies of different frameworks 
-
+- Event Based Messaging with Rabbitmq Exchanges - Queues
+- PM2 clustered run
 
 TODO:
-- [] RabbitMQ handler, Why: ? I like rabbitmq
-- [] PM2
 - [] Docker, Nahh, It is not my concern, a devops should handle image management, deployment strategies loadbalancer and networking. I should code!
+- ????
