@@ -51,8 +51,6 @@ const errorSchemas = {
     400: validationErrorSchema,
     401: commonErrorSchema,
     404: commonErrorSchema,
-    405: commonErrorSchema,
-    415: commonErrorSchema,
     429: commonErrorSchema,
     500: commonErrorSchema,
     502: commonErrorSchema

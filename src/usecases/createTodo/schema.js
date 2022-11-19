@@ -2,7 +2,7 @@
 
 const { headers, errorSchemas } = require('../../infrastructure/schemas');
 
-const createTodoResponseSchema = {
+const responseSchema = {
     type: 'object',
     properties: {
         todoId: {
@@ -12,7 +12,7 @@ const createTodoResponseSchema = {
     }
 };
 
-const createTodoRequestSchema = {
+const requestSchema = {
     tags: ['Todos'],
     summary: 'This api creates a todo',
     description: `<h3> This API let users to add a Todo </h3>`,
@@ -31,12 +31,10 @@ const createTodoRequestSchema = {
     }
 };
 
-const createTodoSchema = {
-    ...createTodoRequestSchema,
+module.exports = {
+    ...requestSchema,
     response: {
-        200: createTodoResponseSchema,
+        200: responseSchema,
         ...errorSchemas
     }
 };
-
-module.exports = { createTodoSchema };

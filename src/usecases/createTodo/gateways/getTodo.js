@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
+const Todo = require('../../../models/todo');
 
 module.exports = async function (name) {
-    return await mongoose.connection.db.collection("todos").findOne({ name: name });
+    return await Todo.findOne({ name:name});
 };
