@@ -2,11 +2,12 @@
   "name": "startup-api-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon src",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "dev:pm2": "pm2-dev start ecosystem.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +22,8 @@
     "ajv": "^8.11.2",
     "ajv-errors": "^3.0.0",
     "ajv-formats": "^2.1.1",
+    "amqplib": "^0.10.3",
+    "amqplib-auto-recovery": "^0.2.0",
     "async_hooks": "^1.0.0",
     "env-schema": "^5.1.1",
     "fastify": "^4.10.0",
@@ -32,6 +35,7 @@
     "nodemon": "^2.0.20",
     "pino": "^8.7.0",
     "pino-multi-stream": "^6.0.0",
+    "pm2": "^5.2.2",
     "uuid": "^9.0.0"
   }
 }

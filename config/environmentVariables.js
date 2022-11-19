@@ -17,6 +17,10 @@ const schema = {
         MONGODB_DB_NAME: {
             type: 'string'
         },
+        RABBITMQ_URI: {
+            type: 'string',
+            default: 'amqp://guest:guest@localhost:5672/%2f'
+        }
 
     }
 };

@@ -1,7 +1,7 @@
 'use strict';
 
 const { logger } = require('./infrastructure/lib/logger');
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 function setTrapForUncaughtExceptions() {
     process.on('uncaughtException', err => {
         // eslint-disable-next-line no-console

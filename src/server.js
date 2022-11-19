@@ -89,6 +89,8 @@ const init = async ({ config }) => {
   app.addHook('preSerialization', appendPayloadToResponse);
   app.addHook('onResponse', onResponse);
   await app.ready();
+  console.log(app.printRoutes());
+
 
   logger.info('Everything is Loaded..!');
   setupGracefulShutdown({ fastify: app });
