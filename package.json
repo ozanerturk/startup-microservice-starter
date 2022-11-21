@@ -26,7 +26,7 @@
     "amqplib-auto-recovery": "^0.2.0",
     "async_hooks": "^1.0.0",
     "env-schema": "^5.1.1",
-    "fastify": "^4.10.0",
+    "fastify": "^4.10.2",
     "fastify-plugin": "^4.3.0",
     "json-stringify-safe": "^5.0.1",
     "lodash": "^4.17.21",
